@@ -11,5 +11,5 @@ def my_collect(array)
 end
 
 my_collect do
-  3
+  collection
 end
