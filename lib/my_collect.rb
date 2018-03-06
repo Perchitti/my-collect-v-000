@@ -9,5 +9,5 @@ def my_collect(array)
 end
 
 my_collect do
-puts "testing"
+  puts "testing"
 end
