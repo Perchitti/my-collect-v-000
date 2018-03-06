@@ -2,8 +2,9 @@
 
 def my_collect(array)
   counter = 0
-  if counter < array.length
-    yield (array[counter])
+  collection = []
+  while counter < array.length
+  collection << yield(array[counter])
     counter = counter + 1
   end
 end
