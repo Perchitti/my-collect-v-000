@@ -7,3 +7,7 @@ def my_collect(array)
     counter = counter + 1
   end
 end
+
+my_collect do
+puts "testing"
+end
