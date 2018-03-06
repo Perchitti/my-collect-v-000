@@ -9,7 +9,3 @@ def my_collect(array)
   end
   collection
 end
-
-my_collect do
-  collection
-end
