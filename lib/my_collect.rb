@@ -7,6 +7,7 @@ def my_collect(array)
   collection << yield(array[counter])
     counter = counter + 1
   end
+  collection
 end
 
 my_collect do
